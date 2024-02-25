@@ -14,3 +14,4 @@ Any python 3.x installation will work for this app
 1. Run python SeekScraperPh1.py to collect job posting links
 2. Run python SeekScraperPh2.py to collect details for each job posting collecting in Ph1
 3. This will produce database file seek.db in the root directory which can be seen in grafana/tableau or similar dashboarding tools.
+4. If you want to scrape job listings of different category, modify jobSearchURL in SeekScraperPh1.py accordingly.
